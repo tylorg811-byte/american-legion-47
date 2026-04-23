@@ -229,7 +229,15 @@
       right:0;
       bottom:0;
       height:8px;
-      background:linear-gradient(90deg,var(--red),var(--gold),var(--navy),var(--red));
+      background:linear-gradient(
+        90deg,
+        #b22234 0%,
+        #b22234 33.33%,
+        #ffffff 33.33%,
+        #ffffff 66.66%,
+        #0d2340 66.66%,
+        #0d2340 100%
+      );
     }
 
     .hero-grid{
@@ -239,6 +247,7 @@
       grid-template-columns:1.08fr .92fr;
       gap:34px;
       align-items:center;
+      padding-bottom:26px;
     }
 
     .eyebrow{
@@ -285,13 +294,14 @@
       flex-wrap:wrap;
       gap:12px;
       align-items:flex-start;
+      padding-bottom:28px;
     }
 
     .hero-point{
       display:inline-flex;
       align-items:center;
       justify-content:center;
-      padding:10px 15px;
+      padding:10px 18px;
       border-radius:999px;
       background:rgba(255,255,255,.08);
       border:1px solid rgba(255,255,255,.14);
